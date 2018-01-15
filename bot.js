@@ -899,4 +899,4 @@ function clear(){
 	clearInterval(temp);
 }
 
-client.login(config.token);
+client.login(process.env.TOKEN);
